@@ -219,33 +219,33 @@ set level_limit = 25
 set abs_control_gain = 5
 
 # restore original profile selection
-profile 2
+profile 1
 
 # rateprofile
 rateprofile 0
 
-set yaw_rc_rate = 50
+set yaw_rc_rate = 210
 set roll_expo = 60
 set pitch_expo = 60
-set yaw_expo = 60
+set yaw_expo = 20
 set roll_srate = 80
 set pitch_srate = 80
-set yaw_srate = 80
+set yaw_srate = 25
 
 # rateprofile
 rateprofile 1
 
-set yaw_rc_rate = 50
+set yaw_rc_rate = 210
 set roll_srate = 80
 set pitch_srate = 80
-set yaw_srate = 80
+set yaw_srate = 25
 set tpa_rate = 75
 set tpa_breakpoint = 1750
 
 # rateprofile
 rateprofile 2
 
-set yaw_rc_rate = 25
+set yaw_rc_rate = 215
 set yaw_expo = 25
 set roll_srate = 0
 set pitch_srate = 0
